@@ -9,8 +9,7 @@
                         <a class="btn btn-primary float-right" href="{{ route('questions.create') }}">
                             Create a question.
                         </a>
-                        <a class="btn btn-primary float-right">
-                        </a>
+
 
                         <div class="card-body">
 
@@ -34,7 +33,10 @@
                                                     <a class="btn btn-primary float-right" href="{{ route('questions.show', ['id' => $question->id]) }}">
                                                         View
                                                     </a>
-                                                </p>
+
+                                                    <a class="btn btn-primary float-left"
+                                                       href='/notify'>Notify By Email</>
+                                                    </a>
                                             </div>
                                         </div>
                                     </div>

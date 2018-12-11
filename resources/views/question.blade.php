@@ -43,6 +43,11 @@
                                         View
                                     </a>
 
+                                    <a class="btn btn-primary float-left"
+                                     href='/notify'>Notify</>
+                                    </a>
+
+
                                 </div>
                             </div>
                         @empty
