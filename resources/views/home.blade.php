@@ -52,6 +52,8 @@
                             <div class="float-right">
                                 {{ $questions->links() }}
                             </div>
+
+
                         </div>
 
                     </div>

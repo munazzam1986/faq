@@ -6,3 +6,5 @@ To run the FAQ Project:
 2. cd into FAQ and run composer install
 3. cp .env.example to .env
 4. setup database with sqlite 
+
+Epic and User Stories

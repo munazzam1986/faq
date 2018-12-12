@@ -40,12 +40,11 @@ Route::post('/sendmail', function (\Illuminate\Http\Request $request, \Illuminat
     $mailer
         ->to($request->input('mail'))
         ->send(new \App\Mail\MyMail($request->input('title')));
-    return redirect()->back();
+        return redirect()->back();
 })->name('sendmail');
 
-
-Route::get('notify',function(){
-   return view('notify');
+Route::get('notify',function(Request $request){
+    return view('notify');
 });
 
 Route::resources([

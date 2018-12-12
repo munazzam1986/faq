@@ -21,6 +21,7 @@
         <button type="submit">Send Mail</button>
         {{ csrf_field() }}
     </form>
+
 </div>
 </body>
 </html>
