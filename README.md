@@ -25,10 +25,10 @@ Password: PHP12345
 Epic and User Stories:
 
 Epic: Adding Email Notification feature to the FAQ Project.
-User story (1): As a user, I want to send emails via FAQ Project so to keep relevant group of people updated.
-User story (2): As a user, I want a notification button that will navigate me to the new web page to send emails.
-User story (3): As a user, I want a home button on the notification page so to navigate between pages easily.
-User story (4): As a user, I want a notification button in question/answer dialog box so I can send emails from both.
+1. User story (1): As a user, I want to send emails via FAQ Project so to keep relevant group of people updated.
+2. User story (2): As a user, I want a notification button that will navigate me to the new web page to send emails.
+3. User story (3): As a user, I want a home button on the notification page so to navigate between pages easily.
+4. User story (4): As a user, I want a notification button in question/answer dialog box so I can send emails from both.
 
 Below is the link to Heroku.
 
