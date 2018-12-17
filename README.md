@@ -33,3 +33,7 @@ Epic: Adding Email Notification feature to the FAQ Project.
 Below is the link to Heroku.
 
 https://nameless-retreat-33006.herokuapp.com/
+
+My Feature test is only testing Mailables and it runs with no errors although i am passing no emails to it.
+The reason I am passing no emails is because that will require me to edit .env file which will stop me to send emails to mailtrap.
+
